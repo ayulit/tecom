@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tecom?createDatabaseIfNotExist=true&useUnicode=true&serverTimezone=UTC
+    username: root
+    password: mypassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    initialization-mode: always
+  # SQL logs
+  jpa:
+#    show-sql: true
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+#        show_sql: true
+        use_sql_comments: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+

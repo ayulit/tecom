@@ -1,0 +1,4 @@
+[
+{ "brand": "Toyota", "model": "Camry", "year": 2010, "month": 1, "engine": 2000, "turbo": true, "power": 160, "transmission_type" : "AUTOMATIC", "drive_type" : "FRONT", "body_type" : "SEDAN", "color": "red" },
+{ "brand": "Toyota", "model": "Avensis", "year": 2011, "month": 2, "engine": 2000, "turbo": false, "power": 150, "transmission_type" : "MANUAL", "drive_type" : "FRONT", "body_type" : "SEDAN", "color": "biege" }
+]
